@@ -1,0 +1,7 @@
+Response: {
+  albumId: 100,
+  id: 5001,
+  title: 'New title',
+  url: 'https://newurl',
+  thumbnailUrl: 'https://new.thumbnail.url'
+}

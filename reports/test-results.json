@@ -1,0 +1,335 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\Users\\Akanksha\\OneDrive\\Desktop\\API tests\\httpsjsonplaceholder.typicode.comphotos\\node_modules\\@playwright\\test\\cli.js",
+      "test"
+    ],
+    "configFile": "C:\\Users\\Akanksha\\OneDrive\\Desktop\\API tests\\httpsjsonplaceholder.typicode.comphotos\\playwright.config.ts",
+    "rootDir": "C:/Users/Akanksha/OneDrive/Desktop/API tests/httpsjsonplaceholder.typicode.comphotos/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 4
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/Users/Akanksha/OneDrive/Desktop/API tests/httpsjsonplaceholder.typicode.comphotos/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 4
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/Akanksha/OneDrive/Desktop/API tests/httpsjsonplaceholder.typicode.comphotos/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "C:\\Users\\Akanksha\\OneDrive\\Desktop\\API tests\\httpsjsonplaceholder.typicode.comphotos\\node_modules\\allure-playwright\\dist\\cjs\\index.js",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 4,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "api_photo.spec.ts",
+      "file": "api_photo.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Get photos API",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 863,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Getting all photos Data :\n"
+                    },
+                    {
+                      "text": "[\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m1\u001b[39m,\n    title: \u001b[32m'accusamus beatae ad facilis cum similique qui sunt'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/92c952'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/92c952'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m2\u001b[39m,\n    title: \u001b[32m'reprehenderit est deserunt velit ipsam'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/771796'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/771796'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m3\u001b[39m,\n    title: \u001b[32m'officia porro iure quia iusto qui ipsa ut modi'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/24f355'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/24f355'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m4\u001b[39m,\n    title: \u001b[32m'culpa odio esse rerum omnis laboriosam voluptate repudiandae'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/d32776'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/d32776'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m5\u001b[39m,\n    title: \u001b[32m'natus nisi omnis corporis facere molestiae rerum in'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/f66b97'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/f66b97'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m6\u001b[39m,\n    title: \u001b[32m'accusamus ea aliquid et amet sequi nemo'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/56a8c2'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/56a8c2'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m7\u001b[39m,\n    title: \u001b[32m'officia delectus consequatur vero aut veniam explicabo molestias'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/b0f7cc'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/b0f7cc'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m8\u001b[39m,\n    title: \u001b[32m'aut porro officiis laborum odit ea laudantium corporis'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/54176f'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/54176f'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m9\u001b[39m,\n    title: \u001b[32m'qui eius qui autem sed'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/51aa97'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/51aa97'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m10\u001b[39m,\n    title: \u001b[32m'beatae et provident et ut vel'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/810b14'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/810b14'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m11\u001b[39m,\n    title: \u001b[32m'nihil at amet non hic quia qui'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/1ee8a4'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/1ee8a4'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m12\u001b[39m,\n    title: \u001b[32m'mollitia soluta ut rerum eos aliquam consequatur perspiciatis maiores'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/66b7d2'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/66b7d2'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m13\u001b[39m,\n    title: \u001b[32m'repudiandae iusto deleniti rerum'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/197d29'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/197d29'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m14\u001b[39m,\n    title: \u001b[32m'est necessitatibus architecto ut laborum'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/61a65'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/61a65'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m15\u001b[39m,\n    title: \u001b[32m'harum dicta similique quis dolore earum ex qui'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/f9cee5'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/f9cee5'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m16\u001b[39m,\n    title: \u001b[32m'iusto sunt nobis quasi veritatis quas expedita voluptatum deserunt'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/fdf73e'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/fdf73e'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m17\u001b[39m,\n    title: \u001b[32m'natus doloribus necessitatibus ipsa'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/9c184f'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/9c184f'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m18\u001b[39m,\n    title: \u001b[32m'laboriosam odit nam necessitatibus et illum dolores reiciendis'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/1fe46f'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/1fe46f'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m19\u001b[39m,\n    title: \u001b[32m'perferendis nesciunt eveniet et optio a'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/56acb2'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/56acb2'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m20\u001b[39m,\n    title: \u001b[32m'assumenda voluptatem laboriosam enim consequatur veniam placeat reiciendis error'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/8985dc'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/8985dc'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m21\u001b[39m,\n    title: \u001b[32m'ad et natus qui'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/5e12c6'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/5e12c6'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m22\u001b[39m,\n    title: \u001b[32m'et ea illo et sit voluptas animi blanditiis porro'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/45601a'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/45601a'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m23\u001b[39m,\n    title: \u001b[32m'harum velit vero totam'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/e924e6'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/e924e6'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m24\u001b[39m,\n    title: \u001b[32m'beatae officiis ut aut'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/8f209a'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/8f209a'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m25\u001b[39m,\n    title: \u001b[32m'facere non quis fuga fugit vitae'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/5e3a73'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/5e3a73'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m26\u001b[39m,\n    title: \u001b[32m'asperiores nobis voluptate qui'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/474645'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/474645'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m27\u001b[39m,\n    title: \u001b[32m'sit asperiores est quos quis nisi veniam error'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/c984bf'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/c984bf'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m28\u001b[39m,\n    title: \u001b[32m'non neque eligendi molestiae repudiandae illum voluptatem qui aut'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/392537'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/392537'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m29\u001b[39m,\n    title: \u001b[32m'aut ipsam quos ab placeat omnis'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/602b9e'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/602b9e'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m30\u001b[39m,\n    title: \u001b[32m'odio enim voluptatem quidem aut nihil illum'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/372c93'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/372c93'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m31\u001b[39m,\n    title: \u001b[32m'voluptate voluptates sequi'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/a7c272'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/a7c272'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m32\u001b[39m,\n    title: \u001b[32m'ad enim dignissimos voluptatem similique'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/c70a4d'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/c70a4d'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m33\u001b[39m,\n    title: \u001b[32m'culpa ipsam nobis qui fuga magni et mollitia'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/501fe1'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/501fe1'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m34\u001b[39m,\n    title: \u001b[32m'vitae est facere quia itaque adipisci perferendis id maiores'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/35185e'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/35185e'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m35\u001b[39m,\n    title: \u001b[32m'tenetur minus voluptatum et'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/c96cad'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/c96cad'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m36\u001b[39m,\n    title: \u001b[32m'expedita rerum eaque'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/4d564d'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/4d564d'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m37\u001b[39m,\n    title: \u001b[32m'totam voluptas iusto deserunt dolores'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/ea51da'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/ea51da'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m38\u001b[39m,\n    title: \u001b[32m'natus magnam iure rerum pariatur molestias dolore nisi'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/4f5b8d'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/4f5b8d'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m39\u001b[39m,\n    title: \u001b[32m'molestiae nam ullam et rerum doloribus'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/1e71a2'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/1e71a2'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m40\u001b[39m,\n    title: \u001b[32m'est quas voluptates dignissimos sint praesentium nisi recusandae'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/3a0b95'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/3a0b95'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m41\u001b[39m,\n    title: \u001b[32m'in voluptatem doloremque cum atque architecto deleniti'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/659403'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/659403'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m42\u001b[39m,\n    title: \u001b[32m'voluptatibus a autem molestias voluptas architecto culpa'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/ca50ac'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/ca50ac'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m43\u001b[39m,\n    title: \u001b[32m'eius hic autem ad beatae voluptas'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/6ad437'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/6ad437'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m44\u001b[39m,\n    title: \u001b[32m'neque eum provident et inventore sed ipsam dignissimos quo'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/29fe9f'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/29fe9f'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m45\u001b[39m,\n    title: \u001b[32m'praesentium fugit quis aut voluptatum commodi dolore corrupti'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/c4084a'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/c4084a'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m46\u001b[39m,\n    title: \u001b[32m'quidem maiores in quia fugit dolore explicabo occaecati'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/e9b68'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/e9b68'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m47\u001b[39m,\n    title: \u001b[32m'et soluta est'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/b4412f'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/b4412f'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m48\u001b[39m,\n    title: \u001b[32m'ut esse id'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/68e0a8'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/68e0a8'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m49\u001b[39m,\n    title: \u001b[32m'quasi quae est modi quis quam in impedit'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/2cd88b'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/2cd88b'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m1\u001b[39m,\n    id: \u001b[33m50\u001b[39m,\n    title: \u001b[32m'et inventore quae ut tempore eius voluptatum'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/9e59da'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/9e59da'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m51\u001b[39m,\n    title: \u001b[32m'non sunt voluptatem placeat consequuntur rem incidunt'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/8e973b'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/8e973b'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m52\u001b[39m,\n    title: \u001b[32m'eveniet pariatur quia nobis reiciendis laboriosam ea'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/121fa4'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/121fa4'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m53\u001b[39m,\n    title: \u001b[32m'soluta et harum aliquid officiis ab omnis consequatur'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/6efc5f'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/6efc5f'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m54\u001b[39m,\n    title: \u001b[32m'ut ex quibusdam dolore mollitia'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/aa8f2e'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/aa8f2e'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m55\u001b[39m,\n    title: \u001b[32m'voluptatem consequatur totam qui aut iure est vel'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/5e04a4'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/5e04a4'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m56\u001b[39m,\n    title: \u001b[32m'vel voluptatem esse consequuntur est officia quo aut quisquam'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/f9f067'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/f9f067'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m57\u001b[39m,\n    title: \u001b[32m'vero est optio expedita quis ut molestiae'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/95acce'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/95acce'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m58\u001b[39m,\n    title: \u001b[32m'rem pariatur facere eaque'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/cde4c1'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/cde4c1'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m59\u001b[39m,\n    title: \u001b[32m'modi totam dolor eaque et ipsum est cupiditate'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/a46a91'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/a46a91'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m60\u001b[39m,\n    title: \u001b[32m'ea enim temporibus asperiores placeat consectetur commodi ullam'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/323599'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/323599'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m61\u001b[39m,\n    title: \u001b[32m'quia minus sed eveniet accusantium incidunt beatae odio'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/e403d1'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/e403d1'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m62\u001b[39m,\n    title: \u001b[32m'dolorem cumque quo nihil inventore enim'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/65ad4f'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/65ad4f'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m63\u001b[39m,\n    title: \u001b[32m'facere animi autem quod dolor'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/4e557c'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/4e557c'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m64\u001b[39m,\n    title: \u001b[32m'doloremque culpa quia'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/cd5a92'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/cd5a92'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m65\u001b[39m,\n    title: \u001b[32m'sed voluptatum enim eaque cumque qui sunt'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/149540'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/149540'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m66\u001b[39m,\n    title: \u001b[32m'provident rerum voluptatem illo asperiores qui maiores'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/ee0a7e'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/ee0a7e'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m67\u001b[39m,\n    title: \u001b[32m'veritatis labore ipsum unde aut quam dolores'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/1279e9'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/1279e9'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m68\u001b[39m,\n    title: \u001b[32m'architecto aut quod qui ullam vitae expedita delectus'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/e9603b'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/e9603b'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m69\u001b[39m,\n    title: \u001b[32m'et autem dolores aut porro est qui'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/46e3b1'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/46e3b1'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m70\u001b[39m,\n    title: \u001b[32m'quam quos dolor eum ea in'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/7375af'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/7375af'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m71\u001b[39m,\n    title: \u001b[32m'illo qui vel laboriosam vel fugit deserunt'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/363789'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/363789'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m72\u001b[39m,\n    title: \u001b[32m'iusto sint enim nesciunt facilis exercitationem'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/45935c'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/45935c'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m73\u001b[39m,\n    title: \u001b[32m'rerum exercitationem libero dolor'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/1224bd'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/1224bd'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m74\u001b[39m,\n    title: \u001b[32m'eligendi quas consequatur aut consequuntur'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/65ac19'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/65ac19'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m75\u001b[39m,\n    title: \u001b[32m'aut magni quibusdam cupiditate ea'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/a9ef52'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/a9ef52'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m76\u001b[39m,\n    title: \u001b[32m'magni nulla et dolores'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/7644fe'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/7644fe'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m77\u001b[39m,\n    title: \u001b[32m'ipsum consequatur vel omnis mollitia repellat dolores quasi'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/36d137'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/36d137'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m78\u001b[39m,\n    title: \u001b[32m'aperiam aut est amet tenetur et dolorem'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/637984'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/637984'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m79\u001b[39m,\n    title: \u001b[32m'est vel et laboriosam quo aspernatur distinctio molestiae'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/c611a9'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/c611a9'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m80\u001b[39m,\n    title: \u001b[32m'et corrupti nihil cumque'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/a0c998'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/a0c998'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m81\u001b[39m,\n    title: \u001b[32m'error magni fugiat dolorem impedit molestiae illo ullam debitis'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/31a74c'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/31a74c'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m82\u001b[39m,\n    title: \u001b[32m'voluptate voluptas molestias vitae illo iusto'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/88b703'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/88b703'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m83\u001b[39m,\n    title: \u001b[32m'quia quasi enim voluptatem repellat sit sint'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/a19891'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/a19891'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m84\u001b[39m,\n    title: \u001b[32m'aliquam dolorem ut modi ratione et assumenda impedit'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/b5205d'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/b5205d'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m85\u001b[39m,\n    title: \u001b[32m'ullam delectus architecto sint error'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/eb7e7f'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/eb7e7f'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m86\u001b[39m,\n    title: \u001b[32m'qui vel ut odio consequuntur'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/fd5751'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/fd5751'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m87\u001b[39m,\n    title: \u001b[32m'eos nihil sunt accusantium omnis'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/224566'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/224566'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m88\u001b[39m,\n    title: \u001b[32m'inventore veritatis magnam enim quasi'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/75334a'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/75334a'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m89\u001b[39m,\n    title: \u001b[32m'id at cum incidunt nulla dolor vero tenetur'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/21d35'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/21d35'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m90\u001b[39m,\n    title: \u001b[32m'et quae eligendi vitae maxime in'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/bfe0dc'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/bfe0dc'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m91\u001b[39m,\n    title: \u001b[32m'sunt quo laborum commodi porro consequatur nam delectus et'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/40591'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/40591'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m92\u001b[39m,\n    title: \u001b[32m'quod non quae'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/de79c7'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/de79c7'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m93\u001b[39m,\n    title: \u001b[32m'molestias et aliquam natus repellendus accusamus dolore'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/2edde0'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/2edde0'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m94\u001b[39m,\n    title: \u001b[32m'et quisquam aspernatur'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/cc12f5'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/cc12f5'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m95\u001b[39m,\n    title: \u001b[32m'magni odio non'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/9cda61'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/9cda61'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m96\u001b[39m,\n    title: \u001b[32m'dolore esse a in eos sed'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/1fb08b'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/1fb08b'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m97\u001b[39m,\n    title: \u001b[32m'labore magnam officiis nemo et'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/e2223e'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/e2223e'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m98\u001b[39m,\n    title: \u001b[32m'sed commodi libero id nesciunt modi vitae'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/a77d08'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/a77d08'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m99\u001b[39m,\n    title: \u001b[32m'magnam dolor sed enim vel optio consequuntur'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/b04f2e'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/b04f2e'\u001b[39m\n  },\n  {\n    albumId: \u001b[33m2\u001b[39m,\n    id: \u001b[33m100\u001b[39m,\n    title: \u001b[32m'et qui rerum'\u001b[39m,\n    url: \u001b[32m'https://via.placeholder.com/600/14ba42'\u001b[39m,\n    thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/14ba42'\u001b[39m\n  },\n  ... 4900 more items\n]\n"
+                    },
+                    {
+                      "text": "Successfully retrived the data of all photos\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-22T16:53:59.772Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "49ff7b44de4a4f23eb85-382a423bbbf124d0902e",
+          "file": "api_photo.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "delete_photo.spec.ts",
+      "file": "delete_photo.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Delete photo api",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 430,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Delete photo api\n"
+                    },
+                    {
+                      "text": "Response: {}\n"
+                    },
+                    {
+                      "text": "Successfully deleted photo\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-22T16:53:59.788Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "9b56f3033cf0d7750c71-b081a2c8998aca3b2d31",
+          "file": "delete_photo.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "post_new_photo.spec.ts",
+      "file": "post_new_photo.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Post New API photo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 405,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Response: {\n  albumId: \u001b[33m100\u001b[39m,\n  id: \u001b[33m5001\u001b[39m,\n  title: \u001b[32m'New title'\u001b[39m,\n  url: \u001b[32m'https://newurl'\u001b[39m,\n  thumbnailUrl: \u001b[32m'https://new.thumbnail.url'\u001b[39m\n}\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-22T16:53:59.740Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e49bb31e87eb55727e85-3ac5ca70a75d4ca893d5",
+          "file": "post_new_photo.spec.ts",
+          "line": 4,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "put_photoapi.spec.ts",
+      "file": "put_photoapi.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Updating the data of photo api",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "parallelIndex": 3,
+                  "status": "passed",
+                  "duration": 770,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Updating data of particular photo\n"
+                    },
+                    {
+                      "text": "Response: {\n  albumId: \u001b[33m100\u001b[39m,\n  id: \u001b[33m1\u001b[39m,\n  title: \u001b[32m'Newly updated title'\u001b[39m,\n  url: \u001b[32m'Newly updated url'\u001b[39m,\n  thumbnailUrl: \u001b[32m'Newly Updated thumbnail url'\u001b[39m\n}\n"
+                    },
+                    {
+                      "text": "Successfully updated data of a particular photo\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-22T16:53:59.762Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "57d590b210150d4d8a50-1ef85e768cdf94dfda7f",
+          "file": "put_photoapi.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "single_api_photo.spec.ts",
+      "file": "single_api_photo.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Getting single Api photo",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 618,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "Getting data of particular id photo\n"
+                    },
+                    {
+                      "text": "Response: {\n  albumId: \u001b[33m1\u001b[39m,\n  id: \u001b[33m10\u001b[39m,\n  title: \u001b[32m'beatae et provident et ut vel'\u001b[39m,\n  url: \u001b[32m'https://via.placeholder.com/600/810b14'\u001b[39m,\n  thumbnailUrl: \u001b[32m'https://via.placeholder.com/150/810b14'\u001b[39m\n}\n"
+                    },
+                    {
+                      "text": "Successfully retrived the data of a particular photo\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-08-22T16:54:00.263Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "fc7c34f7b774cd52c447-58de2ed1badc7b4b571a",
+          "file": "single_api_photo.spec.ts",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-08-22T16:53:58.835Z",
+    "duration": 2092.65,
+    "expected": 5,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

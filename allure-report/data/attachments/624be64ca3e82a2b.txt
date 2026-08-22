@@ -1,0 +1,9 @@
+Updating data of particular photo
+Response: {
+  albumId: 100,
+  id: 1,
+  title: 'Newly updated title',
+  url: 'Newly updated url',
+  thumbnailUrl: 'Newly Updated thumbnail url'
+}
+Successfully updated data of a particular photo
